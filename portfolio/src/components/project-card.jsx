@@ -10,7 +10,7 @@ export function ProjectCard({ id, title, year, description, imageUrl }) {
             src={imageUrl}
             alt={title}
             fill
-            className="object-cover transition-transform group-hover:scale-105"
+            className="object-fit transition-transform group-hover:scale-105"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-4">
             <h2 className="text-xl font-extralight text-white">

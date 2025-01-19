@@ -23,20 +23,13 @@ export function SocialLinks() {
         <span className="sr-only">GitHub</span>
       </Link>
       <Link
-        href="https://linkedin.com/in/akshaykamble786"
+        href="https://www.linkedin.com/in/akshay-kamble-26b308255"
         className="text-gray-400 hover:text-gray-300 transition-colors"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Linkedin className="w-5 h-5" />
         <span className="sr-only">LinkedIn</span>
-      </Link>
-      <Link
-        className="text-gray-400 hover:text-gray-300 transition-colors"
-        href=""
-      >
-        <Mail className="w-5 h-5" />
-        <span className="sr-only">Email</span>
       </Link>
     </div>
   )
