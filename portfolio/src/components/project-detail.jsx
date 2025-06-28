@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowLeft, ExternalLink, Monitor, Users, Bot, Blocks, WandSparkles, SpeakerIcon, TowerControlIcon, Settings, GitGraphIcon, MessageCircle, ShoppingBagIcon, Grid, CreditCard, Package2Icon, Smartphone, LayoutDashboardIcon, Pencil, ImageIcon, TagIcon, LockIcon, MessageCircleIcon, PenTool, ChartArea, Palette, Shield, HistoryIcon } from 'lucide-react'
+import { ArrowLeft, ExternalLink, Monitor, Users, Bot, Blocks, WandSparkles, SpeakerIcon, TowerControlIcon, Settings, GitGraphIcon, MessageCircle, ShoppingBagIcon, Grid, CreditCard, Package2Icon, Smartphone, LayoutDashboardIcon, Pencil, ImageIcon, TagIcon, LockIcon, MessageCircleIcon, PenTool, ChartArea, Palette, Shield, HistoryIcon, CompassIcon, Globe, Share, CodeIcon, Play, Edit, Cloud, Layout, Bug,  } from 'lucide-react'
 
 const iconMap = {
   blocks: Blocks,
@@ -29,6 +29,15 @@ const iconMap = {
   cube: Blocks,
   shield: Shield,
   history: HistoryIcon,
+  compass: CompassIcon,
+  globe: Globe,
+  share: Share,
+  code: CodeIcon,
+  play: Play,
+  edit: Edit,
+  cloudUpload: Cloud,
+  layout: Layout,
+  bug: Bug
 }
 
 function FeatureCard({ title, description, icon }) {
@@ -64,15 +73,17 @@ export function ProjectDetail({
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back
           </Link>
-          <a
-            href={websiteUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-neutral-400 hover:text-white transition-colors inline-flex items-center"
-          >
-            Website
-            <ExternalLink className="w-4 h-4 ml-2" />
-          </a>
+          {websiteUrl && (
+            <a
+              href={websiteUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-400 hover:text-white transition-colors inline-flex items-center"
+            >
+              Website
+              <ExternalLink className="w-4 h-4 ml-2" />
+            </a>
+          )}
         </nav>
 
         <header className="mb-6 text-left">

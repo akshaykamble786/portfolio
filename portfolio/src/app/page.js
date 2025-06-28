@@ -11,7 +11,7 @@ export default function Home() {
           <div className="mt-8 space-y-4 text-gray-300 max-w-3xl">
           <p className="font-light">
               Aspiring web developer based in Mumbai, passionate about the crossroads of web development and AI.
-              Currently pursuing a <span className="italic">BScIT in Information Technology</span> at Nirmala Memorial Foundation College.
+              Recently graduated with a <span className="italic">BSc in Information Technology</span> at Nirmala Memorial Foundation College.
             </p>
           </div>
         </header>
@@ -25,17 +25,24 @@ export default function Home() {
             imageUrl="/brainstorm.png"
           />
           <ProjectCard
-            id="convora"
-            title="Convora"
+            id="earth-tok"
+            title="EarthTok"
             year="2025"
-            description="AI-based DM automation chatbot"
-            imageUrl="/convora.png"
+            description="Discover the world through a TikTok-like experience"
+            imageUrl="/earth-tok.png"
+          />
+          <ProjectCard
+            id="bluiprint"
+            title="Bluiprint"
+            year="2025"
+            description="AI-based web development agent"
+            imageUrl="/bluiprint.png"
           />
           <ProjectCard
             id="eleqtra"
             title="Eleqtra"
             year="2024"
-            description="E-commerce web application"
+            description="E-commerce web application design"
             imageUrl="/eleqtra.png"
           />
           <ProjectCard

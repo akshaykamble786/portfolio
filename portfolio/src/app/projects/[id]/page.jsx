@@ -10,7 +10,7 @@ const projects = {
     longDescription: "Brainstorm is an innovative AI-powered collaborative workspace designed to enhance creativity and productivity. It leverages advanced language models to provide real-time suggestions, autocompletions, document creation and idea generation as users type. The platform supports multiple users working on the same document simultaneously, with features like real-time cursors, comments, and version history.",
     websiteUrl: "https://brainnstorm.vercel.app",
     tools : ["Javascript","Next.js","Firebase","Liveblocks","TipTap","Stripe"],
-    timeline : "5 Months, October 2024 -- February 2025",
+    timeline : "October 2024 -- February 2025",
     features : [
       {
         title: "Templates",
@@ -44,59 +44,93 @@ const projects = {
       }
     ]
   },
-  convora: {
-    id: "convora",
-    title: "Convora",
+  "earth-tok": {
+    id: "earth-tok",
+    title: "Earth-Tok",
     year: "2025",
-    description: "AI-powered DM automation chatbot",
-    imageUrl: "/convora.png",
-    longDescription: "Convora is a cutting-edge AI-powered DM automation chatbot platform that expands upon customer service and business processes. It uses natural language processing and machine learning algorithms to understand and respond to user queries, automate repetitive tasks, and integrate with various business systems. Convora can be customized for different industries and use cases, making it a versatile solution for businesses of all sizes.",
-    websiteUrl: "https://convora-demo.vercel.app",
-    tools: ["TypeScript", "Next.js", "Neon DB", "Prisma", "Instagram API"],
-    timeline: "2 Months, February 2025 -- March 2025",
+    description: "Discover the world through a TikTok-like experience",
+    imageUrl: "/earth-tok.png",
+    longDescription: "Earth-Tok is a web application that combines the addictive nature of TikTok with the thrill of exploration. Users can swipe through a curated feed of random locations from around the globe, each presented with stunning visuals and free-form exploration. The platform encourages discovery and wanderlust, making it easy for users to find their next travel destination or simply enjoy the beauty of our planet.",
+    websiteUrl: "https://earth-tok.vercel.app",
+    tools: ["TypeScript", 'Next.js', 'React', 'Tailwind CSS', 'Mapbox', 'Bolt'],
+    timeline: "February 2025",
     features: [
       {
-        title: "Natural Language Processing",
-        description: "Uses advanced NLP to understand and respond to customer queries with human-like precision.",
-        icon: "speechBubble"
+        title: "Location Discovery",
+        description: "Users can swipe through a curated feed of random locations from around the globe.",
+        icon: "globe"
       },
       {
-        title: "Task Automation",
-        description: "Automates repetitive tasks like order tracking, appointment scheduling, and data entry.",
-        icon: "bot"
+        title: "Stunning Visuals",
+        description: "Each location is presented with high-quality images and engaging content to inspire wanderlust.",
+        icon: "image"
       },
       {
-        title: "Integration with Business Systems",
-        description: "Seamlessly integrates with platforms like CRM, e-commerce, and social media APIs for a unified workflow.",
-        icon: "integration"
+        title: "User Engagement",
+        description:"Free-form map navigation similar to Google Earth, enabling smooth directional movement and exploration",
+        icon: "compass"
       },
       {
-        title: "Customizable Workflows",
-        description: "Allows businesses to create industry-specific workflows tailored to their unique needs.",
-        icon: "settings"
-      },
-      {
-        title: "Real-Time Analytics",
-        description: "Provides detailed insights and analytics on customer interactions and chatbot performance.",
-        icon: "analytics"
-      },
-      {
-        title: "Omnichannel Support",
-        description: "Works across multiple platforms, including Instagram, WhatsApp, and websites, for consistent customer experience.",
-        icon: "chat"
+        title: "Social Sharing",
+        description: "Users can bookmark and share their favorite locations and experiences on social media platforms.",
+        icon: "share"
       }
+      
     ]
+  },
+  bluiprint: {
+    id: "bluiprint",
+    title: "Bluiprint",
+    year: "2025",
+    description: "AI-based web development agent",
+    imageUrl: "/bluiprint.png",
+    longDescription: "Bluiprint is a web application that streamlines the development process for full-stack applications. With its AI-powered features, users can easily prompt the system to generate code snippets, run applications in real-time, edit existing code, and deploy their projects—all from a user-friendly interface. Bluiprint aims to empower developers by providing them with the tools they need to build and iterate on their applications quickly and efficiently.",
+    websiteUrl: "https://bluiprint.vercel.app",
+    tools: ["JavaScript", 'Next.js', 'React', 'Convex', 'Tailwind CSS', 'Google Gemini'],
+    timeline: "January 2025",
+    features: [
+      {
+        title: "AI Code Generation",
+        description: "Users can prompt the AI to generate code snippets for various functionalities, speeding up the development process.",
+        icon: "code"
+      },
+      {
+        title: "Real-Time Application Running",
+        description: "Run applications directly in the browser to test and debug code instantly.",
+        icon: "play"
+      },
+      {
+        title: "Code Editing",
+        description: "Edit existing code with a powerful code editor that supports syntax highlighting and auto-completion.",
+        icon: "edit"
+      },
+      {
+        title: "One-Click Deployment",
+        description: "Deploy full-stack applications with a single click, making it easy to share projects with others.",
+        icon: "cloudUpload"
+      },
+      {
+        title: "User-Friendly Interface",
+        description: "Intuitive design that simplifies the development workflow for both beginners and experienced developers.",
+        icon: "layout"
+      },
+      {
+        title: "AI-Powered Debugging",
+        description: "Utilizes AI to help identify and fix bugs in the code, enhancing the development experience.",
+        icon: "bug"
+      }
+    ]  
   },
   eleqtra: {
     id: "eleqtra",
     title: "Eleqtra",
     year: "2024",
-    description: "E-commerce web application",
+    description: "E-commerce web application design",
     imageUrl: "/eleqtra.png",
-    longDescription: "Eleqtra is a modern e-commerce web application designed to provide a seamless shopping experience for users. Built with a focus on speed, user-friendly design, and scalability, Eleqtra simplifies the process of managing and browsing product catalogs, processing payments, and tracking orders.",
+    longDescription: "Eleqtra is a modern, fully responsive e-commerce frontend learning project, focused on delivering an exceptional user experience and high performance. Built with the latest web technologies, Eleqtra emphasizes scalability, maintainability, and best practices in contemporary frontend development.",
     websiteUrl: "https://eleqtra.vercel.app",
-    tools: ["Javascript", "React", "Tailwind"],
-    timeline: "2 Months, August 2024 -- September 2024",
+    tools: ["Javascript", "React", "Tailwind CSS"],
+    timeline: "August 2024 -- September 2024",
     features: [
       {
         title: "User-Friendly Interface",
@@ -109,11 +143,6 @@ const projects = {
         icon: "grid"
       },
       {
-        title: "Secure Payment Gateway",
-        description: "Integrates secure payment gateways for fast and reliable transactions.",
-        icon: "creditCard"
-      },
-      {
         title: "Order Management",
         description: "Allows customers to view order history, track shipments, and manage returns efficiently.",
         icon: "package"
@@ -123,11 +152,6 @@ const projects = {
         description: "Fully optimized for mobile devices, ensuring a consistent shopping experience across all platforms.",
         icon: "mobile"
       },
-      {
-        title: "Admin Dashboard",
-        description: "Provides business owners with tools to manage inventory, sales, and customer data in real time.",
-        icon: "dashboard"
-      }
     ]
   },
   bloggit: {
@@ -137,9 +161,8 @@ const projects = {
     description: "Blog application made with Appwrite",
     imageUrl: "/bloggit.jpg",
     longDescription: "Bloggit is a modern, user-friendly blogging platform built using Appwrite as its backend. It offers a seamless writing experience with features like rich text editing, image uploads, tags, and categories. The application also includes user authentication, and a responsive design for optimal viewing on all devices. Bloggit demonstrates the power and flexibility of Appwrite for creating full-featured web applications.",
-    websiteUrl: "https://bloggit-demo.vercel.app",
     tools: ["Javascript", "React", "Appwrite"],
-    timeline: "1 Month, May 2024",
+    timeline: "May 2024",
     features: [
       {
         title: "Rich Text Editor",
@@ -182,7 +205,7 @@ const projects = {
     longDescription: "PopPop is a addictive, lightweight, browser-based application 3D virtual bubble wrap simulator designed to provide stress relief and entertainment. Users can pop endless sheets of virtual 3D bubble wrap with satisfying sound effects and visual feedback.",
     websiteUrl: "https://popppop.vercel.app",
     tools: ["Javascript", "Three.js"],
-    timeline: "1 Month, September 2024",
+    timeline: "September 2024",
     features: [
       {
         title: "Realistic Bubble Popping",
@@ -207,10 +230,9 @@ const projects = {
     year: "2023",
     description: "Digital payments web application made with Java",
     imageUrl: "/transact.png",
-    longDescription: "Transact is a secure and efficient digital payments web application built with Java. It simplifies online transactions by providing a user-friendly interface for sending and receiving money and tracking expenses. Transact also includes features like transaction history tracking and integration with OTT/mobile recharge services.",
-    websiteUrl: "https://transact-demo.vercel.app",
+    longDescription: "Transact is a learning platform for digital payments. It offers a comprehensive curriculum covering various aspects of digital transactions, including security, user experience, and integration with existing financial systems. The platform is designed to help users understand the complexities of digital payments and how to implement them effectively in real-world applications.",
     tools: ["Java", "Java Swing"],
-    timeline: "2 Months, October 2023 -- November 2023",
+    timeline: "October 2023 -- November 2023",
     features: [
       {
         title: "Secure Transactions",
