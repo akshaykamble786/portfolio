@@ -10,7 +10,7 @@ export default function Home() {
           <SocialLinks />
           <div className="mt-8 space-y-4 text-gray-300 max-w-3xl">
           <p className="font-light">
-              Aspiring web developer based in Mumbai, passionate about the crossroads of web development and AI.
+              Aspiring web developer based in Mumbai, passionate about the crossroads of Web Development and Generative AI.
               Recently graduated with a <span className="italic">BSc in Information Technology</span> at Nirmala Memorial Foundation College.
             </p>
           </div>
@@ -23,6 +23,13 @@ export default function Home() {
             year="2024"
             description="AI-powered, collaborative text editor"
             imageUrl="/brainstorm.png"
+          />
+          <ProjectCard
+            id="sentinel"
+            title="Sentinel"
+            year="2025"
+            description="Password Manager extension"
+            imageUrl="/sentinel.png"
           />
           <ProjectCard
             id="earth-tok"
@@ -42,7 +49,7 @@ export default function Home() {
             id="eleqtra"
             title="Eleqtra"
             year="2024"
-            description="E-commerce web application design"
+            description="Frontend design for an e-commerce platform"
             imageUrl="/eleqtra.png"
           />
           <ProjectCard

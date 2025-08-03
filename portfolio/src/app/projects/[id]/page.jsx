@@ -44,6 +44,48 @@ const projects = {
       }
     ]
   },
+  sentinel:{
+    id: "sentinel",
+    title: "Sentinel",
+    year: "2025",
+    description: "Password Manager extension",
+    imageUrl: "/sentinel.png",
+    longDescription:"Sentinel is an open-source password manager extension designed to enhance online security and user convenience. It allows users to securely store, manage, and autofill their passwords across various websites. Sentinel emphasizes user privacy and data security, ensuring that sensitive information is encrypted and protected from unauthorized access.",
+    tools: ["Express", 'React', 'Node.js', 'Tailwind CSS', 'MongoDB', 'Microsoft Edge API'],
+    timeline: "July 2025 -- August 2025",
+    features:[
+      {
+        title: "Secure Password Storage",
+        description: "Encrypts and securely stores passwords, ensuring they are protected from unauthorized access.",
+        icon: "lock"
+      },
+      {
+        title: "Autofill Functionality",
+        description: "Automatically fills in login credentials on websites, streamlining the login process.",
+        icon: "auto"
+      },
+      {
+        title:"AES Encryption and Bcrypt Hashing",
+        description: "Uses AES encryption for secure password storage and Bcrypt hashing for password security.",
+        icon: "shield"
+      },
+      {
+        title:"Password Generation",
+        description: "Generates strong, unique passwords for each account to enhance security.",
+        icon: "key"
+      },
+      {
+        title: "User-Friendly Interface",
+        description: "Intuitive design that makes it easy for users to manage their passwords and settings.",
+        icon: "layout"
+      },
+      {
+        title: "Open-Source",
+        description: "Community-driven development with transparency and collaboration at its core.",
+        icon: "code"
+      }
+    ]
+  },
   "earth-tok": {
     id: "earth-tok",
     title: "Earth-Tok",

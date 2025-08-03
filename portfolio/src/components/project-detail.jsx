@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowLeft, ExternalLink, Monitor, Users, Bot, Blocks, WandSparkles, SpeakerIcon, TowerControlIcon, Settings, GitGraphIcon, MessageCircle, ShoppingBagIcon, Grid, CreditCard, Package2Icon, Smartphone, LayoutDashboardIcon, Pencil, ImageIcon, TagIcon, LockIcon, MessageCircleIcon, PenTool, ChartArea, Palette, Shield, HistoryIcon, CompassIcon, Globe, Share, CodeIcon, Play, Edit, Cloud, Layout, Bug,  } from 'lucide-react'
+import { ArrowLeft, ExternalLink, Users, Bot, Blocks, WandSparkles, SpeakerIcon, TowerControlIcon, Settings, GitGraphIcon, MessageCircle, ShoppingBagIcon, Grid, CreditCard, Package2Icon, Smartphone, LayoutDashboardIcon, Pencil, ImageIcon, TagIcon, LockIcon, MessageCircleIcon, PenTool, ChartArea, Palette, Shield, HistoryIcon, CompassIcon, Globe, Share, CodeIcon, Play, Edit, Cloud, Layout, Bug, LockOpenIcon, KeyIcon, LayoutDashboard, Code2Icon, MouseIcon, ShieldCheck,  } from 'lucide-react'
 
 const iconMap = {
   blocks: Blocks,
@@ -37,7 +37,13 @@ const iconMap = {
   edit: Edit,
   cloudUpload: Cloud,
   layout: Layout,
-  bug: Bug
+  bug: Bug,
+  lock: LockOpenIcon,
+  key: KeyIcon,
+  layout: LayoutDashboard,
+  code: Code2Icon,
+  auto: MouseIcon,
+  shield: ShieldCheck
 }
 
 function FeatureCard({ title, description, icon }) {
