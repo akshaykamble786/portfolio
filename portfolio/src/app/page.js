@@ -70,7 +70,7 @@ export default function Home() {
             id="transact"
             title="Transact"
             year="2023"
-            description="Simplified, digital payments web application made with Java"
+            description="Digital payments web application made with Java"
             imageUrl="/transact.png"
           />
         </div>
