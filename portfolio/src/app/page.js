@@ -21,21 +21,29 @@ export default function Home() {
             id="brainstorm"
             title="Brainstorm"
             year="2024"
-            description="AI-powered, collaborative text editor"
+            description="AI-powered collaborative text editor"
             imageUrl="/brainstorm.png"
           />
           <ProjectCard
             id="sentinel"
             title="Sentinel"
             year="2025"
-            description="Password Manager extension"
+            description="Password manager web app and extension"
             imageUrl="/sentinel.png"
           />
+          <ProjectCard
+          id="lexora"
+          title="Lexora"
+          year="2025"
+          description="AI-powered e-book reader"
+          imageUrl="/lexora.png"
+        />
+
           <ProjectCard
             id="earth-tok"
             title="EarthTok"
             year="2025"
-            description="Discover the world through a TikTok-like experience"
+            description="Tik-Tok but for exploring the world"
             imageUrl="/earth-tok.png"
           />
           <ProjectCard

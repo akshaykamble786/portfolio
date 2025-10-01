@@ -86,11 +86,54 @@ const projects = {
       }
     ]
   },
+  lexora:{
+    id: "lexora",
+    title: "Lexora",
+    year: "2025",
+    description: "AI-powered e-book reader",
+    imageUrl: "/lexora.png",
+    longDescription: "Lexora is an AI-powered e-book reader designed to enhance the reading experience through advanced features and intelligent assistance. It leverages cutting-edge generative AI services to provide AI-powered page visualizations and explanations, keyword search, progress tracker and word definitions. Lexora aims to make reading more engaging and accessible for users of all ages and preferences.",
+    websiteUrl: "https://lexora.base44.app",
+    tools: ["JavaScript", 'React', 'Tailwind CSS', 'OpenAI'],
+    timeline: "September 2025 -- October 2025",
+    features: [
+      {
+        title: "AI Page Visualizations",
+        description: "Generates visual representations of book pages to enhance comprehension and engagement.",
+        icon: "image"
+      },
+      {
+        title: "AI Page Explanations",
+        description: "Provides AI-generated explanations and summaries of book content for better understanding.",
+        icon: "bookOpen"
+      },
+      {
+        title: "Word Definitions",
+        description: "Offers instant definitions and explanations of words within the text, aiding vocabulary building.",
+        icon: "dictionary"
+      },
+      {
+        title: "Light and Dark Modes",
+        description: "Switch between light and dark themes for comfortable reading in various lighting conditions.",
+        icon: "sunMoon"
+      },
+      {
+        title: "Progress Tracker",
+        description: "Keeps track of reading progress, allowing users to easily resume where they left off.",
+        icon: "chartArea"
+      },
+      {
+        title: "Keyword Search",
+        description: "Enables users to search for specific keywords within the book for quick reference.",
+        icon: "search"
+      }
+    ]
+  },
   "earth-tok": {
     id: "earth-tok",
     title: "Earth-Tok",
     year: "2025",
-    description: "Discover the world through a TikTok-like experience",
+    description: "Tik-Tok but for exploring the world",
     imageUrl: "/earth-tok.png",
     longDescription: "Earth-Tok is a web application that combines the addictive nature of TikTok with the thrill of exploration. Users can swipe through a curated feed of random locations from around the globe, each presented with stunning visuals and free-form exploration. The platform encourages discovery and wanderlust, making it easy for users to find their next travel destination or simply enjoy the beauty of our planet.",
     websiteUrl: "https://earth-tok.vercel.app",
