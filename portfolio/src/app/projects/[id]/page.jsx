@@ -8,7 +8,8 @@ const projects = {
     description: "AI-powered, collaborative workspace",
     imageUrl: "/brainstorm.png",
     longDescription: "Brainstorm is an innovative AI-powered collaborative workspace designed to enhance creativity and productivity. It leverages advanced language models to provide real-time suggestions, autocompletions, document creation and idea generation as users type. The platform supports multiple users working on the same document simultaneously, with features like real-time cursors, comments, and version history.",
-    websiteUrl: "https://brainnstorm.vercel.app",
+    websiteUrl: "https://brainstormm.vercel.app",
+    sourceCode: "https://github.com/akshaykamble786/brainstorm",
     tools : ["Javascript","Next.js","Firebase","Liveblocks","TipTap","Stripe"],
     timeline : "October 2024 -- February 2025",
     features : [
@@ -94,7 +95,8 @@ const projects = {
     imageUrl: "/lexora.png",
     longDescription: "Lexora is an AI-powered e-book reader designed to enhance the reading experience through advanced features and intelligent assistance. It leverages cutting-edge generative AI services to provide AI-powered page visualizations and explanations, keyword search, progress tracker and word definitions. Lexora aims to make reading more engaging and accessible for users of all ages and preferences.",
     websiteUrl: "https://lexora.base44.app",
-    tools: ["JavaScript", 'React', 'Tailwind CSS', 'OpenAI'],
+    sourceCode: "https://github.com/akshaykamble786/lexora",
+    tools: ["JavaScript", 'React', 'Tailwind CSS', 'Base44'],
     timeline: "September 2025 -- October 2025",
     features: [
       {
@@ -137,6 +139,7 @@ const projects = {
     imageUrl: "/earth-tok.png",
     longDescription: "Earth-Tok is a web application that combines the addictive nature of TikTok with the thrill of exploration. Users can swipe through a curated feed of random locations from around the globe, each presented with stunning visuals and free-form exploration. The platform encourages discovery and wanderlust, making it easy for users to find their next travel destination or simply enjoy the beauty of our planet.",
     websiteUrl: "https://earth-tok.vercel.app",
+    sourceCode: "https://github.com/akshaykamble786/earth-tok",
     tools: ["TypeScript", 'Next.js', 'React', 'Tailwind CSS', 'Mapbox', 'Bolt'],
     timeline: "February 2025",
     features: [
@@ -171,6 +174,7 @@ const projects = {
     imageUrl: "/bluiprint.png",
     longDescription: "Bluiprint is a web application that streamlines the development process for full-stack applications. With its AI-powered features, users can easily prompt the system to generate code snippets, run applications in real-time, edit existing code, and deploy their projects—all from a user-friendly interface. Bluiprint aims to empower developers by providing them with the tools they need to build and iterate on their applications quickly and efficiently.",
     websiteUrl: "https://bluiprint.vercel.app",
+    sourceCode: "https://github.com/akshaykamble786/bluiprint",
     tools: ["JavaScript", 'Next.js', 'React', 'Convex', 'Tailwind CSS', 'Google Gemini'],
     timeline: "January 2025",
     features: [
@@ -214,6 +218,7 @@ const projects = {
     imageUrl: "/eleqtra.png",
     longDescription: "Eleqtra is a modern, fully responsive e-commerce frontend learning project, focused on delivering an exceptional user experience and high performance. Built with the latest web technologies, Eleqtra emphasizes scalability, maintainability, and best practices in contemporary frontend development.",
     websiteUrl: "https://eleqtra.vercel.app",
+    sourceCode: "https://github.com/akshaykamble786/eleqtra",
     tools: ["Javascript", "React", "Tailwind CSS"],
     timeline: "August 2024 -- September 2024",
     features: [
@@ -245,6 +250,7 @@ const projects = {
     year: "2024",
     description: "Blog application made with Appwrite",
     imageUrl: "/bloggit.jpg",
+    sourceCode: "https://github.com/akshaykamble786/bloggit",
     longDescription: "Bloggit is a modern, user-friendly blogging platform built using Appwrite as its backend. It offers a seamless writing experience with features like rich text editing, image uploads, tags, and categories. The application also includes user authentication, and a responsive design for optimal viewing on all devices. Bloggit demonstrates the power and flexibility of Appwrite for creating full-featured web applications.",
     tools: ["Javascript", "React", "Appwrite"],
     timeline: "May 2024",
@@ -289,6 +295,7 @@ const projects = {
     imageUrl: "/poppop.png",
     longDescription: "PopPop is a addictive, lightweight, browser-based application 3D virtual bubble wrap simulator designed to provide stress relief and entertainment. Users can pop endless sheets of virtual 3D bubble wrap with satisfying sound effects and visual feedback.",
     websiteUrl: "https://popppop.vercel.app",
+    sourceCode: "https://github.com/akshaykamble786/poppop",
     tools: ["Javascript", "Three.js"],
     timeline: "September 2024",
     features: [
@@ -315,6 +322,7 @@ const projects = {
     year: "2023",
     description: "Digital payments web application made with Java",
     imageUrl: "/transact.png",
+    sourceCode: "https://github.com/akshaykamble786/transact",
     longDescription: "Transact is a learning platform for digital payments. It offers a comprehensive curriculum covering various aspects of digital transactions, including security, user experience, and integration with existing financial systems. The platform is designed to help users understand the complexities of digital payments and how to implement them effectively in real-world applications.",
     tools: ["Java", "Java Swing"],
     timeline: "October 2023 -- November 2023",

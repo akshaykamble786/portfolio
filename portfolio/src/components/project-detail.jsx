@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowLeft, ExternalLink, Users, Bot, Blocks, WandSparkles, SpeakerIcon, TowerControlIcon, Settings, GitGraphIcon, MessageCircle, ShoppingBagIcon, Grid, CreditCard, Package2Icon, Smartphone, LayoutDashboardIcon, Pencil, ImageIcon, TagIcon, LockIcon, MessageCircleIcon, PenTool, ChartArea, Palette, Shield, HistoryIcon, CompassIcon, Globe, Share, CodeIcon, Play, Edit, Cloud, Layout, Bug, LockOpenIcon, KeyIcon, LayoutDashboard, Code2Icon, MouseIcon, ShieldCheck, BookOpen, Dictionary, SunMoon, BookAIcon } from 'lucide-react'
+import { ArrowLeft, ExternalLink, Users, Bot, Blocks, WandSparkles, SpeakerIcon, TowerControlIcon, Settings, GitGraphIcon, MessageCircle, ShoppingBagIcon, Grid, CreditCard, Package2Icon, Smartphone, LayoutDashboardIcon, Pencil, ImageIcon, TagIcon, LockIcon, MessageCircleIcon, PenTool, ChartArea, Palette, Shield, HistoryIcon, CompassIcon, Globe, Share, CodeIcon, Play, Edit, Cloud, Layout, Bug, LockOpenIcon, KeyIcon, LayoutDashboard, Code2Icon, MouseIcon, ShieldCheck, BookOpen, SunMoon, BookAIcon } from 'lucide-react'
 
 const iconMap = {
   blocks: Blocks,
@@ -72,6 +72,7 @@ export function ProjectDetail({
   timeline,
   tools = [],
   websiteUrl,
+  sourceCode,
   features = []
 }) {
   return (
@@ -96,6 +97,18 @@ export function ProjectDetail({
               <ExternalLink className="w-4 h-4 ml-2" />
             </a>
           )}
+          {sourceCode ? (
+              <a
+                href={sourceCode}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-neutral-400 hover:text-white transition-colors inline-flex items-center"
+              >
+                Source Code
+                <GitGraphIcon className="w-4 h-4 ml-2" />
+              </a>
+            ) : <span className="text-neutral-400 hover:text-white">This is a private repository</span>
+          }
         </nav>
 
         <header className="mb-6 text-left">
